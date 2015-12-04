@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+css-tricks.com
+
+
+
+<head> container for metadata
+<body> contains the "meat" of  a website
+<title> the tab name in your browser. 
+
+
+article
+section make sections on a web page
+p - paragraph
+aside - goes on the side(ads, quotes, ect..) 
+footer - at the end of the website
+header - at the top of your website
+h1-h6 - heading on a website in diffrent sizes
+nav - the navigation bar where you have your links
+
+
+atributes:
+
+example is an image:
+
+<img src"filename or web addrress of image" alt="desciption of image"/> 
+
+
+Diffrent CSS selectors:
+
+1) Element
+2) Class
+3) ID
+
+Here I selected the p(paragraph) element in a style tag to give it styles.
+
+<style>
+	
+	p {
+		color: blue;
+		background-color: black;
+		font-family: sans-serif;
+	}
+
+</style>
+
+Here I am using a class(can be useded multiple times) name to give it styles
+
+<style>
+	
+	.banner_text {
+		
+		color: blue;
+		background-color: black;
+		font-family: sans-serif;
+	}
+
+</style>
+
+Here I am using an ID(can be used only once) to give styles 
+
+<style>
+	
+	#id_name {
+		
+		color: blue;
+		background-color: black;
+		font-family: sans-serif;
+	}
+
+</style>
+
