@@ -1,0 +1,46 @@
+      img {
+      	width: 500px;
+      }
+
+      img p {
+      	font-size: .8em;
+      }
+
+      p {
+      	padding-left: 10px;
+      	padding-right: 10px;
+      }
+
+      .whole_article {
+      	margin-left: 30px;
+      	margin-right: 30px;
+      }
+
+      .game1 {
+      	color: blue;
+      	font-family: sans-serif;
+     }
+
+     .game2 {
+      	color: red;
+      	font-family: sans-serif;
+     }
+
+     .game3 {
+      	color: green;
+      	font-family: sans-serif;
+     }
+
+     .game4 {
+      	color: yellow;
+      	font-family: sans-serif;
+     }
+
+     .game5 {
+      	color: pink;
+      	font-family: sans-serif;
+     }
+
+     body {
+     	background-color: gray;
+     }
