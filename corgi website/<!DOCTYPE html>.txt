@@ -70,3 +70,15 @@ Here I am using an ID(can be used only once) to give styles
 
 </style>
 
+padding inside border
+
+margin oustide the border
+
+when increasing padding you increase the size of the element 
+
+ <div>
+ 	<div>
+ 		
+ 	</div>
+
+ </div>
