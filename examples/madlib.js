@@ -36,7 +36,47 @@ if (adjective == null){
    adjective = "nature";
 }
 
-madlib += adjective + " though, so they will continue to do nothing.";
+madlib += adjective + " though, so they will continue to do nothing. Tune in at ";
+
+// var time = prompt("please give me a number");
+
+// if (time < 1 || time > 12) {
+
+// 	time = time + "minutes after the hour.";
+// } else {
+// 	time = time + " " + "o'clock";
+// }
+
+// madlib += time;
+
+var military_time = prompt("please type in a military time");
+
+if (military_time < 1200) {
+
+	military_time = "good morning.";
+
+} else if (military_time > 1200 && military_time < 1700 ) {
+
+	military_time = "good afternoon";
+
+} else if (military_time >= 1700 && military_time < 2100) {
+
+	military_time = "good evning";
+
+} else if (military_time > 2100 && military_time < 0000) {
+
+	military_time = "good night";
+
+} else {
+
+	military_time = "good day";
+}
+
+madlib += military_time;
+
+
+
+
 
 // Print the madlib to the console.
 console.log(madlib);

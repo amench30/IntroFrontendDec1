@@ -82,3 +82,46 @@ when increasing padding you increase the size of the element
  	</div>
 
  </div>
+
+
+
+ conditional statments in JS
+
+ if (time < 10) {
+ 
+ go_home(); ----This is going to be a function
+
+ } else {
+	
+	stay_at_work(); ----This is going to be a function
+
+ }
+
+logical oporators
+
+&& - logical and
+
+|| logical or
+
+! - logical not
+
+
+document. -- get acsess to the DOM
+.getElementById("ID") -- get accsess to the elements ID
+.getElementByClass("class") -- get accsess to the elements with class
+
+document.getElementById("Id name")
+document.getElementByClass("class name/s")
+
+FUNCTIONS
+
+function full_name(first_name, last_name) {
+	
+	var first_name = prompt("what is your first name?");
+	var last_name = prompt("What is your last name?");
+
+	return first_name + last_name;
+
+}
+
+(fullname);
