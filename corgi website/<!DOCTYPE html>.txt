@@ -125,3 +125,11 @@ function full_name(first_name, last_name) {
 }
 
 (fullname);
+
+
+for loops  -- repeting segments of code for a specific number of times
+
+for (var 1; i <10; i++) {
+	console.log(i);
+
+}
