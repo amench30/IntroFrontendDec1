@@ -1,0 +1,47 @@
+.input {
+	padding: 10px;
+	text-align: center;
+
+}
+
+.buttons {
+	
+	padding: 5px;
+	margin-left: 180px;
+
+}
+
+.productList {
+	background-color: pink;
+	color: white;
+	padding: 10px; 
+
+}
+
+.counting {
+	border-style: solid;
+	border-width: 2px;
+	background-color: pink;
+    
+    margin-right: 450px;
+    margin-left: 450px; 
+	
+
+}
+
+body {
+	float: center;
+	align-content: center;
+	
+}
+
+.heading {
+	text-align: center;
+	color: red;
+
+
+ul {
+    list-style-image: url('bullet.jpg');
+}
+Try it yours
+

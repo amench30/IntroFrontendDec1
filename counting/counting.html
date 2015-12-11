@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Casino</title>
+	<title>Adding/counting</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
 <body>
-<input type="text" id="user_num"></input>
-<button id="count" type="button">Count</button>
 
-<div id="onScreen"></div>
 
-<script type="text/javascript" src="counting.js"></script>
+	<div class="heading">
+		<h2>Shopping List</h2>
+	</div>
 
+	<div class="counting">
+
+		<div class="input">
+			<input name="text" type="text" id="new_product" placeholder="Please add an Item" required="required"></input>
+		</div>
+
+		<div class="buttons">
+			<button id="add" type="button">Add Item</button>
+			<!-- <button id="removeTop">Remove Item</button> -->
+			<button id="removeBottom">Remove Item</button>
+			<!-- <button id="addTop">Add to top</button> -->
+		</div>
+
+
+		<div class="productList" id="onScreen"></div>
+
+	</div>
+
+
+
+	<!-- <script type="text/javascript" src="counting.js"></script> -->
+	<script type="text/javascript" src="counting2.js"></script>
+<br><br><br><br><br><br><br><br>
 </body>
 
 </html>

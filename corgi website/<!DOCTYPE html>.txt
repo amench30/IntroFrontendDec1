@@ -133,3 +133,11 @@ for (var 1; i <10; i++) {
 	console.log(i);
 
 }
+
+
+arrays:
+
+var materials = ['hay', 'wood', 'hamster']
+materials[0]//will accsess hay
+materials.pop(0)//will remove hay
+materials.push('kittens')//makes the list ['hay', 'wood', 'kittens']
